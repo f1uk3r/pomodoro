@@ -14,7 +14,7 @@ main()
 function initialiseTimer () {
   var now = new Date().getTime()
   //https://stackoverflow.com/questions/1197928/how-to-add-30-minutes-to-a-javascript-date-object
-  timerEnd = new Date(now + 1*60000)
+  timerEnd = new Date(now + 20*60000)
   let totalMinutes = timerEnd - now
   return totalMinutes
 }
