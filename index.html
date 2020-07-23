@@ -4,12 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pomodoro</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
   <div class="pomodoro">
     <p class="timer">0:00</p>
     <button class="start">Start</button>
   </div>
+  <textarea id="pomodoro-content" rows="10" cols="50"></textarea>
+  <button class="post">Post</button>
   <audio src="sounds/alert-sound.mp3" id="alert"></audio>
   <script src="main.js" type="text/javascript"></script>
 </body>
